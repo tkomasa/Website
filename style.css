@@ -452,3 +452,23 @@
     width: 90%;
     margin: 40px auto 0 auto;
 }
+
+.about__container {
+    background-color: #333333;
+    padding-top: 10rem;
+}
+
+.about__container h2 {
+    padding-bottom: 2rem;
+    background-color: #1E9EC5;
+}
+
+.about__container p {
+    padding-bottom: 2rem;
+    color: rgb(212, 212, 212);
+}
+
+.about__container h3 {
+    font-size: 1.5rem;
+    color: rgb(163, 82, 163);
+}
