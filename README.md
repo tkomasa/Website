@@ -4,6 +4,7 @@ Raw site code using JavaScript, HTML, and CSS in conjunction with one another.
 
 ## Site Details:
 Font: https://fonts.google.com/specimen/Fira+Code?query=fira
+SVG Icons: https://iconmonstr.com/
 
 
 ## How To's:
