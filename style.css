@@ -70,7 +70,7 @@
 
 .navbar__links:hover {
     font-weight: bold;
-    color: rgb(184, 184, 184);
+    color: rgb(112, 37, 141);
     transition: all 0.3s ease;
 }
 
@@ -260,4 +260,46 @@
     .main__content h2 {
         font-size: 1.5rem;
     }
+}
+
+@media screen and (max-width:480px) {
+    .main__content h1 {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    .main__content h2 {
+        font-size: 1rem;
+    }
+    .main__btn {
+        padding: 12px 36px;
+        margin: 2.5rem 0;
+    }
+}
+
+
+/*Me Page*/
+
+.me {
+    background: #333333;
+    display: column;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.me h1 {
+    background-color: #1E9EC5;
+    background-size: 100%;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.me__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
