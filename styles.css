@@ -180,7 +180,7 @@ article {
 }
 
 .typing-wrapper {
-    height: 100vh;
+    height: 300px;
     /*This part is important for centering*/
     display: flex;
     align-items: center;
