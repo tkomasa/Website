@@ -218,7 +218,7 @@ article {
     bottom: 0;
     left: 0;
     padding: 1rem;
-    background-color: #6c6d6e;
+    background-color: #262626;
     text-align: center;
 }
 
@@ -227,9 +227,9 @@ article {
     justify-content: center;
     align-items: center;
     margin: 0rem 1rem;
-    color: rgb(10, 66, 66);
+    color: teal;
 }
 
 .footer a:hover {
-    color: rgb(8, 34, 34);
+    color: rgb(0, 153, 153);
 }
