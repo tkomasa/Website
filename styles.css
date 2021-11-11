@@ -1050,6 +1050,21 @@ div[class$="-ring"] {
 }
 
 
+/*Main Styles*/
+
+.main {
+    color: white;
+    text-shadow: 2px 2px 3px #001122;
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    left: 39%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
 /*Footer Styles*/
 
 .footer {
