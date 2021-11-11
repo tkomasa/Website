@@ -88,7 +88,7 @@ nav ul li ul li a {
     position: absolute;
     top: 0;
     right: 0;
-    background: #262626;
+    background: #001122;
     height: 70px;
     width: 70px;
 }
@@ -1050,39 +1050,6 @@ div[class$="-ring"] {
 }
 
 
-/* typing text */
-
-.typing-wrapper {
-    height: 300px;
-    /*This part is important for centering*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.typing-demo {
-    width: 22ch;
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 2em;
-}
-
-@keyframes typing {
-    from {
-        width: 0
-    }
-}
-
-@keyframes blink {
-    50% {
-        border-color: transparent
-    }
-}
-
-
 /*Footer Styles*/
 
 .footer {
@@ -1091,7 +1058,6 @@ div[class$="-ring"] {
     bottom: 0;
     left: 0;
     padding: 1rem;
-    background-color: #262626;
     text-align: center;
 }
 
@@ -1100,9 +1066,9 @@ div[class$="-ring"] {
     justify-content: center;
     align-items: center;
     margin: 0rem 1rem;
-    color: teal;
+    color: rgb(197, 197, 197);
 }
 
 .footer a:hover {
-    color: rgb(0, 153, 153);
+    color: #ffffff;
 }
