@@ -1057,11 +1057,17 @@ div[class$="-ring"] {
     text-shadow: 2px 2px 3px #001122;
     position: absolute;
     z-index: 99;
-    top: 50%;
-    left: 39%;
+    top: 40%;
+    width: 100%;
+    margin: 0 auto;
     align-items: center;
     text-align: center;
     justify-content: center;
+}
+
+.content {
+    display: table;
+    margin: 0 auto;
 }
 
 
