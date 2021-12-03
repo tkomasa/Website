@@ -29,3 +29,5 @@ Fonts from Google Fonts:
 
   
 ## Backend Resources:
+1. Google Domains for the domain
+2. SiteGround for hosting
