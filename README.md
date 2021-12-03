@@ -7,7 +7,7 @@ Font: https://fonts.google.com/specimen/Fira+Code?query=fira
 SVG Icons: https://iconmonstr.com/
 
 
-## How To's:
+## Resources Used:
 Icons from Font Awesome:
 1. Make an account on Font Awesome
 2. Go to https://fontawesome.com/account/cdn
@@ -26,3 +26,6 @@ Fonts from Google Fonts:
 4. Once all styles you want are selected, go to the pop-up on the right of your screen and copy the HTML embed link tag
 5. Go to your index.html file and paste it in your <head> tag
 6. Finally, make sure to use the font-family at the top of your style.css file, inside '* {}'
+
+  
+## Backend Resources:
