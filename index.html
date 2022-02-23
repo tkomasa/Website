@@ -11,107 +11,166 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href="https://allfont.net/allfont.css?fonts=agency-fb-bold" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="./images/invfed_turtle.png" style="width: auto;height: 35px;">
 </head>
 
 <title>Turtle's Site</title>
 
 <body>
-    <section class="navigation">
-        <div class="nav-container">
-            <div class="brand">
-                <a href="/"><i class="fas fa-chevron-right"></i>turtle<i class="far fa-window-minimize"></i></a>
-            </div>
-            <nav>
-                <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-                <ul class="nav-list">
-                    <li>
-                        <a href="/"><i class="far fa-bookmark"></i> Home</a>
-                    </li>
-                    <li><a href="#!"><i class="far fa-folder-open"></i> Projects</a>
-                        <ul class="nav-dropdown">
-                            <li>
-                                <a href="#!"><i class="fab fa-discord"></i> ICARUS Bot</a>
-                            </li>
-                            <li>
-                                <a href="#!"><i class="fas fa-random"></i> Perlin</a>
-                            </li>
-                        </ul>
-                        <li>
-                            <a href="#!"><i class="far fa-address-card"></i> Contact</a>
-                        </li>
-                </ul>
-            </nav>
+    <!DOCTYPE html>
+
+    <html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Turtle-12 Link Tree</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+
+        <style>
+            /* Style Settings */
+            
+            body {
+                background-color: white;
+                font-family: "Roboto", sans-serif;
+                margin: auto;
+                padding: 10px;
+                display: flex column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+            }
+            
+            .Bottom-Section {
+                margin: auto;
+                width: 50%;
+                align-items: center;
+            }
+            
+            #userPhoto {
+                width: 150px;
+                height: 150px;
+                display: block;
+                margin: 45px auto 30px;
+                border-radius: 50%;
+                border: solid #e6e6e6 2px;
+                box-shadow: 0px 7px 15px rgba(20, 20, 20, 0.5);
+            }
+            
+            #userName {
+                color: #1c1c1c;
+                font-size: 25px;
+                display: block;
+                margin: auto;
+                width: 50%;
+                text-align: center;
+                text-decoration: none;
+            }
+            
+            #links {
+                max-width: 600px;
+                width: auto;
+                margin: 25px auto;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                padding: 10px;
+            }
+            
+            .link {
+                display: block;
+                background-color: #e6e6e6;
+                color: #1c1c1c;
+                font-family: inherit;
+                text-align: center;
+                margin-bottom: 20px;
+                padding: 17px;
+                text-decoration: none;
+                font-size: 20px;
+                border: solid #e6e6e6 2px;
+                box-shadow: 0px 7px 15px rgba(20, 20, 20, 0.5);
+            }
+            
+            .link:hover {
+                background-color: #1c1c1c;
+                color: #e6e6e6;
+            }
+            
+            .icon-container {
+                display: flex;
+                justify-content: space-evenly;
+                padding: 15px;
+                margin: auto;
+                width: 60%;
+                align-items: center;
+                text-align: center;
+            }
+            
+            .icon {
+                font-size: 30px;
+                color: #bbb;
+                opacity: 0.6;
+                height: 30px;
+                text-decoration: none;
+            }
+            
+            .icon:hover {
+                color: black;
+                opacity: 1.6;
+            }
+            
+            p {
+                text-align: center;
+                color: #bbb;
+            }
+            /*This Glowing Hover Effect was made by qpi65 , i used it to Highlight my name */
+            
+            h1 {
+                color: #484848;
+                font-size: 30px;
+                font-weight: bold;
+                font-family: monospace;
+                letter-spacing: 7px;
+                cursor: pointer
+            }
+            
+            h1 span {
+                transition: .5s linear
+            }
+            
+            h1:hover span {
+                color: Black;
+                text-shadow: 0 0 10px #fff, 0 0 20px white, 0 0 40px black;
+            }
+            /*This Glowing Hover Effect was made by qpi65 , i used it to Highlight my name */
+        </style>
+        <img id="userPhoto" src="./images/invfed_turtle.png" alt="Turtle-12 User Photo">
+        <a class="icon" href="https://robertsspaceindustries.com/citizens/Turtle-12" id="userName" target="_blank">
+            <h1><span>Turtle-12</span></h1>
+        </a>
+        <div id="links">
+            <a class="link" href="https://twitter.com/invfed_turtle" target="_blank"><i class="fa fa-twitter-square" style="padding:10px"></i> Twitter</a>
+            <a class="link" href="https://www.youtube.com/channel/UCDCpkxkR8BzASazdkftHnYA" target="_blank"><i class="fa fa-youtube" style="padding:10px"></i>Youtube</a>
+            <a class="link" href="https://www.twitch.tv/invfed_turtle" target="_blank"><i class="fa fa-twitch" style="padding:10px"></i>Twitch</a>
+            <a class="link" href="https://github.com/tkomasa" target="_blank"><i class="fa fa-github" style="padding:10px"></i>Github</a>
+            <a class="link" href="https://stackoverflow.com/users/14222711/tkomasa" target="_blank"><i class="fa fa-stack-overflow" style="padding:10px"></i>Stackoverflow</a>
+            <a class="link" href="https://www.reddit.com/user/invfed_turtle" target="_blank"><i class="fa fa-reddit" style="padding:10px"></i> Reddit </a>
         </div>
-    </section>
 
-    <div class="hero">
+        <footer style="text-align:center;">
 
-        <div class="system">
-            <div class="sun"></div>
-            <div class="mer-path"></div>
-            <div class="mer"></div>
-            <div class="ven-path"></div>
-            <div class="ven"></div>
-            <div class="ear-path"></div>
-            <div class="ear">
-                <div class="lune"></div>
-            </div>
-            <div class="mar-path"></div>
-            <div class="mar">
-                <div class="pho"></div>
-                <div class="dem"></div>
-            </div>
-            <div class="jup-path"></div>
-            <div class="jup">
-                <div class="spot"></div>
-                <div class="jove io"></div>
-                <div class="jove eur"></div>
-                <div class="jove gan"></div>
-                <div class="jove cal"></div>
-            </div>
-            <div class="sat-path"></div>
-            <div class="sat">
-                <div class="f-ring"></div>
-                <div class="a-ring"></div>
-                <div class="b-ring"></div>
-                <div class="c-ring"></div>
-            </div>
-            <div class="ura-path"></div>
-            <div class="ura">
-                <div class="e-ring"></div>
-            </div>
-            <div class="nep-path"></div>
-            <div class="nep">
-                <div class="spot"></div>
-            </div>
-            <div class="plu-path"></div>
-            <div class="plu"></div>
-        </div>
+            <p style="color:black;font-size: small;"><a class="icon" href="https://turtle-12.dev/" target="_blank" style="font-size: small;">turtle-12.dev</p>
+  </footer>
 
-        <div class="main">
-            <div class="content">
-                <h1>TEST</h1>
-                <p>ggggggggggggggggggggggggggggggggggggggggggggg</p>
-                <p>ggggggggggggggggggggggggggggggggggggggggggggg</p>
-                <p>ggggggggggggggggggggggggggggggggggggggggggggg</p>
-                <p>ggggggggggggggggggggggggggggggggggggggggggggg</p>
-                <p>ggggggggggggggggggggggggggggggggggggggggggggg</p>
-                <p>ggggggggggggggggggggggggggggggggggggggggggggg</p>
-                <p>ggggggggggggggggggggggggggggggggggggggggggggg</p>
-                <p>ggggggggggggggggggggggggggggggggggggggggggggg</p>
-                <p>ggggggggggggggggggggggggggggggggggggggggggggg</p>
-                <p>ggggggggggggggggggggggggggggggggggggggggggggg</p>
-            </div>
-        </div>
+  <!-- Javascript -->
+  <script src="https://kit.fontawesome.com/7e482ae4fd.js"></script>
+</body>
 
-    </div>
-
-    <div class="footer">
-        <a href="/#"><i class="fas fa-level-up-alt"></i> Top of Page</a>
-        <a href="/"><i class="far fa-bookmark"></i> Home</a>
-        <a href="#!"><i class="far fa-address-card"></i> Contact</a>
-    </div>
-
+</html>
 </body>
 
 </html>
