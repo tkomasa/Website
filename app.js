@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class StickyNavigation {
 
     constructor() {
@@ -73,5 +72,3 @@ class StickyNavigation {
 }
 
 new StickyNavigation();
-=======
->>>>>>> b014a2178d51df04a25cd2de9fea51dd65733cfb
