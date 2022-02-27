@@ -7,8 +7,41 @@
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
+
+/* Main Content */
+
 a {
     text-decoration: none;
+}
+
+h1 a {
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+}
+
+h1 a:hover {
+    transition: 0.5s all ease-out;
+    color: rgb(107, 107, 107);
+}
+
+#tab-twitter h1 a:hover {
+    transition: 0.5s all ease-out;
+    color: rgb(29, 155, 240);
+}
+
+#tab-discord h1 a:hover {
+    transition: 0.5s all ease-out;
+    color: rgb(86, 98, 246);
+}
+
+#tab-github h1 a:hover {
+    transition: 0.5s all ease-out;
+    color: rgb(13, 17, 23);
+}
+
+#tab-email h1 a:hover {
+    transition: 0.5s all ease-out;
+    color: #CE4136;
 }
 
 .et-hero-tabs,
