@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
     font-family: INVFEDfont;
     src: url(images/fonts/amarurgt.ttf);
@@ -93,4 +94,9 @@ a {
     .et-hero-tab {
         font-size: 1rem;
     }
+=======
+* {
+    font-family: 'Source Code Pro', monospace;
+    margin: 0;
+>>>>>>> b014a2178d51df04a25cd2de9fea51dd65733cfb
 }
