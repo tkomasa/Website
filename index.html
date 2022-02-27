@@ -3,115 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/logo.png" sizes="32x32">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Khand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href="https://allfont.net/allfont.css?fonts=agency-fb-bold" rel="stylesheet" type="text/css" />
+    <title>Turtle WIP Site</title>
 </head>
 
-<title>Turtle's Site</title>
-
 <body>
-    <section class="navigation">
-        <div class="nav-container">
-            <div class="brand">
-                <a href="/"><i class="fas fa-chevron-right"></i>turtle<i class="far fa-window-minimize"></i></a>
-            </div>
-            <nav>
-                <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-                <ul class="nav-list">
-                    <li>
-                        <a href="/"><i class="far fa-bookmark"></i> Home</a>
-                    </li>
-                    <li><a href="#!"><i class="far fa-folder-open"></i> Projects</a>
-                        <ul class="nav-dropdown">
-                            <li>
-                                <a href="#!"><i class="fab fa-discord"></i> ICARUS Bot</a>
-                            </li>
-                            <li>
-                                <a href="#!"><i class="fas fa-random"></i> Perlin</a>
-                            </li>
-                        </ul>
-                        <li>
-                            <a href="#!"><i class="far fa-address-card"></i> Contact</a>
-                        </li>
-                </ul>
-            </nav>
+    <!-- Hero -->
+    <section class="et-hero-tabs">
+        <h1>Turtle-12</h1>
+        <h3 style="font-style: italic;">Flippers on the HOSAS</h3>
+        <div class="et-hero-tabs-container">
+            <a class="et-hero-tab" href="#tab-twitter">Twitter</a>
+            <a class="et-hero-tab" href="#tab-github">GitHub</a>
+            <a class="et-hero-tab" href="#tab-discord">Discord</a>
+            <a class="et-hero-tab" href="#tab-email">Email</a>
+            <a class="et-hero-tab" href="#tab-other">Other</a>
+            <span class="et-hero-tab-slider"></span>
         </div>
     </section>
 
-    <div class="hero">
-
-        <div class="system">
-            <div class="sun"></div>
-            <div class="mer-path"></div>
-            <div class="mer"></div>
-            <div class="ven-path"></div>
-            <div class="ven"></div>
-            <div class="ear-path"></div>
-            <div class="ear">
-                <div class="lune"></div>
-            </div>
-            <div class="mar-path"></div>
-            <div class="mar">
-                <div class="pho"></div>
-                <div class="dem"></div>
-            </div>
-            <div class="jup-path"></div>
-            <div class="jup">
-                <div class="spot"></div>
-                <div class="jove io"></div>
-                <div class="jove eur"></div>
-                <div class="jove gan"></div>
-                <div class="jove cal"></div>
-            </div>
-            <div class="sat-path"></div>
-            <div class="sat">
-                <div class="f-ring"></div>
-                <div class="a-ring"></div>
-                <div class="b-ring"></div>
-                <div class="c-ring"></div>
-            </div>
-            <div class="ura-path"></div>
-            <div class="ura">
-                <div class="e-ring"></div>
-            </div>
-            <div class="nep-path"></div>
-            <div class="nep">
-                <div class="spot"></div>
-            </div>
-            <div class="plu-path"></div>
-            <div class="plu"></div>
-        </div>
-
-        <div class="main">
-            <div class="content">
-                <h1>TEST</h1>
-                <p>ggggggggggggggggggggggggggggggggggggggggggggg</p>
-                <p>ggggggggggggggggggggggggggggggggggggggggggggg</p>
-                <p>ggggggggggggggggggggggggggggggggggggggggggggg</p>
-                <p>ggggggggggggggggggggggggggggggggggggggggggggg</p>
-                <p>ggggggggggggggggggggggggggggggggggggggggggggg</p>
-                <p>ggggggggggggggggggggggggggggggggggggggggggggg</p>
-                <p>ggggggggggggggggggggggggggggggggggggggggggggg</p>
-                <p>ggggggggggggggggggggggggggggggggggggggggggggg</p>
-                <p>ggggggggggggggggggggggggggggggggggggggggggggg</p>
-                <p>ggggggggggggggggggggggggggggggggggggggggggggg</p>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="footer">
-        <a href="/#"><i class="fas fa-level-up-alt"></i> Top of Page</a>
-        <a href="/"><i class="far fa-bookmark"></i> Home</a>
-        <a href="#!"><i class="far fa-address-card"></i> Contact</a>
-    </div>
-
+    <!-- Main -->
+    <main class="et-main">
+        <section class="et-slide" id="tab-twitter">
+            <h1>Twitter</h1>
+            <h3>something about my twitter link</h3>
+        </section>
+        <section class="et-slide" id="tab-github">
+            <h1>GitHub</h1>
+            <h3>something about github account</h3>
+        </section>
+        <section class="et-slide" id="tab-discord">
+            <h1>Discord</h1>
+            <h3>something about discord id</h3>
+        </section>
+        <section class="et-slide" id="tab-email">
+            <h1>Email</h1>
+            <h3>something about my email</h3>
+        </section>
+        <section class="et-slide" id="tab-other">
+            <h1>Other</h1>
+            <h3>something about other crap</h3>
+        </section>
+    </main>
 </body>
 
 </html>
